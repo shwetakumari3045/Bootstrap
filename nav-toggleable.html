@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .nav-link.active{
+            background-color: rgb(33,37,41) !important;
+            color: white !important;
+        }
+        .nav-tabs{
+            border: none !important;
+        }
+        .nav-tabs .nav-link{
+            border: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="container pt-4">
+            <ul class="nav nav-pills ">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#dm">Digital Marketing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#ui">UI/UX</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#web">Web Development</a>
+                </li>
+            </ul>
+            <div class="tab-content mt-2">
+                <div class="tab-pane active" id="dm">
+                    <div class="p-4 bg-dark text-white">
+                        <h2>Digital Marketing Projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores totam dignissimos eum. Fugit numquam perferendis explicabo, aut odio tempore deleniti magni quos inventore quas harum adipisci, consequuntur velit nisi ab.</p>
+                    </div>
+                </div>
+                <div class="tab-pane" id="ui">
+                    <div class="p-4 bg-dark text-white">
+                        <h2>UI/UX Projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis doloremque quasi neque alias voluptatum vitae facere, natus culpa veniam similique dignissimos sint illum corrupti aliquam tempore soluta odio, fugiat explicabo?</p>
+                    </div>
+                </div>
+                <div class="tab-pane" id="web">
+                    <div class="p-4 bg-dark text-white">
+                        <h2>Web Development Projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis doloremque quasi neque alias voluptatum vitae facere, natus culpa veniam similique dignissimos sint illum corrupti aliquam tempore soluta odio, fugiat explicabo?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
